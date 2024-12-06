@@ -62,6 +62,7 @@ function register(e) {
 function alert() {
   const alert = document.createElement("div");
   alert.classList.add(
+    "col-11",
     "col-md-6",
     "col-lg-4",
     "alert",
