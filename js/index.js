@@ -5,7 +5,7 @@ form.addEventListener("submit", (e) => login(e));
 
 function formIsValid() {
   const user = usersList.find(
-    (user) => user.email === email.value && user.password === password.value
+    (user) => user.email.toLowerCase() === email.value.toLowerCase() && user.password === password.value
   );
   if (user) {
     email.classList.add("is-valid");
