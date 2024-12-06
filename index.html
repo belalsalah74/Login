@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body data-bs-theme="dark">
+    <main>
+      <div class="container">
+        <div class="row vh-100 justify-content-center align-items-center">
+          <form class="col-md-6 col-lg-4 text-center p-4 shadow d-none">
+            <h1 class="h3 fw-bold mb-3">Smart Login System</h1>
+            <input
+              type="email"
+              placeholder="Email"
+              id="email"
+              class="form-control mb-3"
+            />
+            <div class="mb-3">
+              <input
+                type="password"
+                placeholder="Password"
+                id="password"
+                class="form-control"
+              />
+              <p class="invalid-feedback mb-3">
+                Email or password is incorrect.
+              </p>
+            </div>
+            <div class="mb-3">
+              <button type="submit" class="btn btn-primary">Login</button>
+              <button type="reset" class="btn btn-secondary mb">Reset</button>
+            </div>
+            <p>
+              Don't have an acoount?
+              <a class="link-light" href="./signup.html">SignUp</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
